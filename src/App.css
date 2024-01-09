@@ -110,7 +110,7 @@ img{
 }
 .section_subtitle{
   display: block;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   margin-bottom: 4rem;
 }
 .section_title,.section_subtitle{
@@ -151,11 +151,13 @@ img{
 
 
 /* ================For Large Devices============= */ 
-@media screen and (max-width:992px) {
+@media screen and (max-width:768px) {
 
-.container{
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
+.section{
+  padding: 2rem 0 4rem;
+}
+.section_subtitle{
+  margin-bottom: var(--mb-3);
 }
   
 }
@@ -163,11 +165,7 @@ img{
 /*=================== For small devices============== */
 @media screen and (max-width:992px) {
 
-  .container{
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
-    
+ 
   }
 
 
