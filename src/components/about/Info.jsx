@@ -3,8 +3,8 @@ import React from 'react'
 function Info() {
   return (
     <div className="about__info grid">
-        <div className="about__box about__icon">
-             <i class='bx bx-award'></i>
+        <div className="about__box ">
+             <i class='bx bx-award about__icon'></i>
             <h3 className="about__title ">Experience</h3>
             <div className="about__subtitle">8 Years working</div>
         </div>
