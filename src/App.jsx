@@ -6,6 +6,7 @@ import About from './components/about/About'
 import Contact from './components/contact/Contact'
 import Header from "./components/header/Header"
 import Home from './components/home/Home'
+import Scrollup from './components/scrollup/Scrollup'
 
 function App() {
  
@@ -18,8 +19,10 @@ function App() {
        <About/>
        <Skills/>
        <Contact/>
-       <Footer/>
+       
       </main>
+      <Footer/>
+      <Scrollup/>
       
     </>
   )
